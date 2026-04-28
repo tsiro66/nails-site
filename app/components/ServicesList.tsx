@@ -27,7 +27,7 @@ interface ServicesListProps {
 
 export default function ServicesList({ fontClass }: ServicesListProps) {
   return (
-    <div id="services" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 text-left scroll-mt-24">
+    <div id="services" className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 text-left scroll-mt-24">
       {SERVICES.map((service) => (
         <div
           key={service.title}
